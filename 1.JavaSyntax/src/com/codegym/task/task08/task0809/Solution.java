@@ -18,11 +18,13 @@ public class Solution {
 
     public static long getInsertTimeInMs(List list) {
         // write your code here
-
+        Date getStartTime = new Date();
         insert10000(list);
 
         // write your code here
-
+        Date getEndTime = new Date();
+        long insertTimeInMs = getEndTime.getTime() - getStartTime.getTime();
+        return insertTimeInMs;
     }
 
     public static void insert10000(List list) {
