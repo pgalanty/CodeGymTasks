@@ -1,0 +1,20 @@
+package com.codegym.task.task01.task0131;
+
+/* 
+More conversions
+
+*/
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Solution {
+    public static void main(String[] args) {
+        System.out.println(getFeetFromInches(28));
+    }
+
+    public static int getFeetFromInches(int inches) {
+        //write your code here
+        return inches/12;
+    }
+}
